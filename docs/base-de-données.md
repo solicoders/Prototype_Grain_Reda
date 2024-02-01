@@ -13,5 +13,5 @@
 
 ## MLD
 
-- Car (Id, Car_Name, Car_Color, Date_de_creation, Date_de_modification, Reference)
+- Car (Id, Car_Name, Car_Color, Model_Id, Date_de_creation, Date_de_modification, Reference)
 - Model (Id, Model_Name, Model_Year, Date_de_creation, Date_de_modification, Reference)

@@ -15,10 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('Model_Name');
             $table->string('Model_Year');
-            $table->string('Reference')->unique();
-            $table->unsignedBigInteger('car_id'); 
-            $table->foreign('car_id')->references('id')->on('cars')->onDelete('cascade');            
             $table->timestamps();
+            $table->string('Reference')->unique();
         });
     }
 
