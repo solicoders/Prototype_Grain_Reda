@@ -16,14 +16,13 @@ class CarsSeeder extends Seeder
         Cars::create([
             'Car_Name' => 'BMW',
             'Car_Color' => 'Blanch',
-            'Model_Id' => '1',
-            'Reference' => 'BMW_1',
+            'Reference' => 'BMW_1'
         ]);
+
         Cars::create([
             'Car_Name' => 'Mercedes',
-            'Car_Color' => 'Noir',
-            'Model_Id' => '2',
-            'Reference' => 'Mercedes_2',
+            'Car_Color' => 'Blanch',
+            'Reference' => 'Mercedes_2'
         ]);
     }
 }
