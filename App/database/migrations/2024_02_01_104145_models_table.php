@@ -15,7 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('Model_Name');
             $table->string('Model_Year');
+            $table->unsignedBigInteger('cars_id'); 
+            $table->foreign('cars_id')->references('id')->on('cars')->onDelete('cascade');
             $table->timestamps();
+            $table->rememberToken();
             $table->string('Reference')->unique();
         });
     }

@@ -15,9 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('Car_Name');
             $table->string('Car_Color');
-            $table->unsignedBigInteger('Model_Id'); 
-            $table->foreign('Model_Id')->references('id')->on('models')->onDelete('cascade');
             $table->timestamps();
+            $table->rememberToken();
             $table->string('Reference')->unique();
         });
     }

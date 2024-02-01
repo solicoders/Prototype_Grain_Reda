@@ -4,12 +4,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Liste des Voitures</h1>
+                    <h1>Liste des Models</h1>
                 </div>
                 <div class="col-sm-6">
                     <div class="float-sm-right">
                         <a href="{{ route('create') }}" class="btn btn-primary">
-                            <i class="fas fa-plus"></i> Nouveau Voiture
+                            <i class="fas fa-plus"></i> Nouveau Model
                         </a>
                     </div>
                 </div>

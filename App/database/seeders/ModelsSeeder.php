@@ -14,14 +14,28 @@ class ModelsSeeder extends Seeder
     public function run(): void
     {
         Models::create([
-            'Model_Name' => 'GLE',
+            'Model_Name' => 'iX',
             'Model_Year' => '2023',
-            'Reference' => 'GLE_2023',
+            'cars_id' => '1',
+            'Reference' => 'iX_2023',
         ]);
         Models::create([
-            'Model_Name' => 'i7',
+            'Model_Name' => 'X7',
             'Model_Year' => '2022',
-            'Reference' => 'i7_2022',
+            'cars_id' => '1',
+            'Reference' => 'X7_2022',
+        ]);
+        Models::create([
+            'Model_Name' => 'X4 M',
+            'Model_Year' => '2022',
+            'cars_id' => '1',
+            'Reference' => 'X4M_2022',
+        ]);
+        Models::create([
+            'Model_Name' => 'GLE',
+            'Model_Year' => '2021',
+            'cars_id' => '2',
+            'Reference' => 'GLE_2021',
         ]);
     }
 }
