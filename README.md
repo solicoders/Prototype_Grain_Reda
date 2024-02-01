@@ -1,9 +1,15 @@
-# Prototype Grain Reda
+#  
 
-## Backlog
+- Référence :   
+
+ 
+
+## Backlog 
 
 Le backlog est une liste ordonées des tâches 
 
+- **chapitre** 
+- **exposé** 
 - **feature** 
   - [1.backlog.1.md](./Backlog/feature/1.backlog.1.md) 
   - [2.creation-app.4.md](./Backlog/feature/2.creation-app.4.md) 
@@ -14,11 +20,18 @@ Le backlog est une liste ordonées des tâches
   - [7.front-end.9.md](./Backlog/feature/7.front-end.9.md) 
   - [8.Règle-gestion.10.md](./Backlog/feature/8.Règle-gestion.10.md) 
   - [9.rapport.11.md](./Backlog/feature/9.rapport.11.md) 
-- **sous-tâche**
+- **sous-tâche** 
+## Livrables 
 
-## Livrables
+ 
 
-- /Backlog
-  - Backlog
-- /docs
-  - Documentation
+- /Backlog 
+  - Backlog 
+- /docs 
+  - Documentation 
+## Références 
+
+ 
+
+- [Autoformation](#) 
+
